@@ -4,8 +4,6 @@ def sort_and_split(low , mid , high):
 	global l
 	first = l[low:mid+1]
 	second = l[mid+1:high+1]
-	# print(first,second)
-	n=min(len(first) , len(second))
 	i=low
 	fp = 0
 	sp=0

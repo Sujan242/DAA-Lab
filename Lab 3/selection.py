@@ -45,3 +45,4 @@ while t>0:
     # k-=1
     print(select(k,0,n-1))
     t-=1
+
